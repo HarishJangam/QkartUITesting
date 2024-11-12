@@ -1,0 +1,11 @@
+
+{
+    "assesments":[
+        {
+            "assesmentDescription":"Verify if all 32 test cases have passed(3 datasets for 4 test-methods and 7 test methods without parameterization)",
+            "find":".//test-method[contains(@name,'TestCase') and @status='PASS']",
+            "expectedCount":32,
+            "errorMessage":"All 32 test cases haven't passed"
+        }
+    ]    
+}

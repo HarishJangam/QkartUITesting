@@ -1,0 +1,27 @@
+^2024-01-05T11:57:39.140356 |  Start TestCase  |  Test Case 1: Verify User Registration | DONE
+H2024-01-05T11:57:52.938570 |  Test Step  |  User Perform Login:  | PASS
+y2024-01-05T11:57:54.684473 |  Start Testcase  |  Test Case 2: Verify User Registration with an existing username  | DONE
+j2024-01-05T11:58:29.210899 |  TestCase 3  |  Start test case : Verify functionality of search box  | DONE
+h2024-01-05T11:58:36.675047 |  TestCase 4  |  Start test case : Verify the presence of size Chart | DONE
+åException while opening Size chart: element click intercepted: Element <button class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1urhf6j" tabindex="0" type="button">...</button> is not clickable at point (674, 868). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-ekeie0" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;">...</div>
+&  (Session info: chrome=91.0.4472.77)
+ZBuild info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+õSystem info: host: 'harish-jangam-criodo', ip: '192.168.73.147', os.name: 'Linux', os.arch: 'amd64', os.version: '5.3.0-1023-aws', java.version: '11.0.19'
+8Driver info: org.openqa.selenium.remote.RemoteWebDriver
+ØCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 91.0.4472.19 (1bf021f248676..., userDataDir: /tmp/.com.google.Chrome.zKoWzj}, goog:chromeOptions: {debuggerAddress: localhost:46227}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 4766d7b81c92c5f4cf3d2d368db...}
+-Session ID: 4766d7b81c92c5f4cf3d2d368dbf8900
+j2024-01-05T11:58:50.387529 |  Start TestCase  |  Test Case 5: Verify Happy Flow of buying products | DONE
+`2024-01-05T11:59:20.835823 |  End TestCase  |  Test Case 5: Happy Flow Test Completed :  | PASS
+d2024-01-05T11:59:20.838431 |  Start TestCase  |  Test Case 6: Verify that cart can be edited | DONE
+d2024-01-05T12:00:05.825076 |  End TestCase  |  Test Case 6: Verify that cart can be edited:  | PASS
+ú2024-01-05T12:00:05.846139 |  Start TestCase  |  Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough | DONE
+áException while performing add to cart: Expected condition failed: waiting for presence of element located by: By.xpath: //*[@class='MuiBox-root css-1gjj37g']/div[1][text()='Stylecon 9 Seater RHS Sofa Set'] (tried for 30 second(s) with 500 milliseconds interval)
+ú2024-01-05T12:01:25.981821 |  End TestCase  |  Test Case 7: Verify that insufficient balance error is thrown when the wallet balance is not enough:  | PASS
+	ç2024-01-05T12:01:25.983778 |  Start TestCase  |  Test Case 8: Verify that product added to cart is available when a new tab is opened | DONE
+
+à2024-01-05T12:01:47.622102 |  Start TestCase  |  Test Case 09: Verify that the Privacy Policy, About Us are displayed correctly  | DONE
+
+Ö2024-01-05T12:02:02.595459 |  End TestCase  |  Test Case 9: Verify that the Privacy Policy, About Us are displayed correctly  | PASS
+z2024-01-05T12:02:03.243845 |  Start TestCase  |  Test Case 10: Verify that contact us option is working correctly  | DONE
+x2024-01-05T12:02:06.248690 |  End TestCase  |  Test Case 10: Verify that contact us option is working correctly  | PASS
+Ö2024-01-05T12:02:07.164620 |  Start TestCase  |  Test Case 11: Ensure that the links on the QKART advertisement are clickable | DONE
